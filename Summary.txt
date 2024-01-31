@@ -1,0 +1,11 @@
+RAG project, end-end RAG, UI involved (discord bot or react project)
+
+1) Get a dataset
+2) Put it into vector database (ChromaDB) - Do it so that it's not session base and its stored locally in a db file. 
+3) Choose how u wanna manipulate dataset
+4) Put it into LLM and choose a prompt (prompt engineering guides), using user query, search db and get back an amount of data (chunks), then put the query, prompt and context into the LLM, and then get response back
+5) Make UI
+
+
+Query should tell you if the answer can be answered or not. There should be a default response for an error
+
